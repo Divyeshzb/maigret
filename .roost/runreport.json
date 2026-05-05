@@ -1,0 +1,1467 @@
+{
+  "run_id": "e775ecc1",
+  "started_at": "2026-05-05T10:32:51.129921Z",
+  "ended_at": "2026-05-05T10:43:32.024545Z",
+  "status": "failed",
+  "config": {
+    "repo": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777977108/source/maigret",
+    "out": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777977108/source/maigret",
+    "workers": 5,
+    "scenarios_from": "planner",
+    "provider": "env:AI_TYPE",
+    "model": "azure/gpt-4.1",
+    "jedi": true
+  },
+  "summary": {
+    "targets_total": 41,
+    "targets_passed": 0,
+    "targets_failed": 40,
+    "targets_partial": 1,
+    "targets_skipped": 0,
+    "scenarios_total": 5,
+    "scenarios_passed": 0,
+    "scenarios_failed": 5,
+    "coverage_weighted": null,
+    "llm_cost_usd": 0.3247,
+    "llm_input_tokens": 478914,
+    "llm_output_tokens": 4670,
+    "llm_cache_read_input_tokens": 446976,
+    "llm_cache_creation_input_tokens": 0,
+    "llm_api_calls": 18,
+    "elapsed_ms": 0
+  },
+  "targets": [
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.AiodnsDomainResolver"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.AiodnsDomainResolver.__init__"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.AiodnsDomainResolver.check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.AiodnsDomainResolver.prepare"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.BAD_CHARS",
+      "symbol_kind": "constant",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.BAD_CHARS"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerBase",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CheckerBase"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CheckerMock"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CheckerMock.__init__"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CheckerMock.check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.close",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CheckerMock.close"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CheckerMock.prepare"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CurlCffiChecker"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CurlCffiChecker.__init__"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CurlCffiChecker.check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.close",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CurlCffiChecker.close"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.CurlCffiChecker.prepare"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.ProxiedAiohttpChecker",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.ProxiedAiohttpChecker"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.ProxiedAiohttpChecker.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.ProxiedAiohttpChecker.__init__"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.SUPPORTED_IDS",
+      "symbol_kind": "constant",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.SUPPORTED_IDS"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.SimpleAiohttpChecker"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.SimpleAiohttpChecker.__init__"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker._make_request",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.SimpleAiohttpChecker._make_request"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.SimpleAiohttpChecker.check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.close",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.SimpleAiohttpChecker.close"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.SimpleAiohttpChecker.prepare"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.check_site_for_username",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.check_site_for_username"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.debug_ip_request",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.debug_ip_request"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.debug_response_logging",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.debug_response_logging"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.detect_error_page",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.detect_error_page"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.extract_ids_data",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.extract_ids_data"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.get_failed_sites",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.get_failed_sites"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.maigret",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.maigret"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.make_site_result",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.make_site_result"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.parse_usernames",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.parse_usernames"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.process_site_result",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.process_site_result"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.process_site_result.build_result",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.process_site_result.build_result"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.self_check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.self_check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.self_check.disabled_count",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.self_check.disabled_count"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.site_self_check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.site_self_check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.timeout_check",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "failed",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "error",
+          "code": "TASK_CRASHED",
+          "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests",
+          "symbol": "maigret.checking.timeout_check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.update_results_info",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        1249,
+        1255
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777977108/source/maigret/checking/test_update_results_info.py",
+      "test_file_hash": "sha256:ca3e9de02b5d407567f431a5ee3594a266bff48c834f421a90ad5a342ce8c3fb",
+      "test_status": "partial",
+      "iterations": 18,
+      "pivots": 1,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.update_results_info#0",
+          "scenario_name": "website_and_links_present",
+          "passed": false,
+          "duration_ms": null,
+          "failure_reason": "no pytest result",
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.update_results_info#1",
+          "scenario_name": "no_website_field",
+          "passed": false,
+          "duration_ms": null,
+          "failure_reason": "no pytest result",
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.update_results_info#2",
+          "scenario_name": "links_field_is_malformed",
+          "passed": false,
+          "duration_ms": null,
+          "failure_reason": "no pytest result",
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.update_results_info#3",
+          "scenario_name": "website_only_no_links",
+          "passed": false,
+          "duration_ms": null,
+          "failure_reason": "no pytest result",
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.update_results_info#4",
+          "scenario_name": "usernames_update",
+          "passed": false,
+          "duration_ms": null,
+          "failure_reason": "no pytest result",
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.32472399999999996,
+      "writer_input_tokens": 478914,
+      "writer_output_tokens": 4670,
+      "writer_cache_read_input_tokens": 446976,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    }
+  ],
+  "files_written": [
+    {
+      "path": "checking/test_update_results_info.py",
+      "hash": "sha256:ca3e9de02b5d407567f431a5ee3594a266bff48c834f421a90ad5a342ce8c3fb",
+      "status": "created"
+    }
+  ],
+  "pr_ready": {
+    "branch_suggestion": "roost/python-tests-20260505-1043",
+    "commit_message": "roost-pytest: add 1 test file(s)",
+    "pr_title": "Auto-generated Python unit tests (1 file(s))",
+    "pr_body_markdown": "## Summary\n- 0 targets with fully green tests\n- 1 targets with partial coverage\n\n## Generated test files\n- `checking/test_update_results_info.py`",
+    "changed_files": [
+      "checking/test_update_results_info.py"
+    ]
+  },
+  "diagnostics": [
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.AiodnsDomainResolver"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.AiodnsDomainResolver.__init__"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.AiodnsDomainResolver.check"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.AiodnsDomainResolver.prepare"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.BAD_CHARS"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CheckerBase"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CheckerMock"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CheckerMock.__init__"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CheckerMock.check"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CheckerMock.close"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CheckerMock.prepare"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CurlCffiChecker"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CurlCffiChecker.__init__"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CurlCffiChecker.check"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CurlCffiChecker.close"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.CurlCffiChecker.prepare"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.ProxiedAiohttpChecker"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.ProxiedAiohttpChecker.__init__"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.SUPPORTED_IDS"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.SimpleAiohttpChecker"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.SimpleAiohttpChecker.__init__"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.SimpleAiohttpChecker._make_request"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.SimpleAiohttpChecker.check"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.SimpleAiohttpChecker.close"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.SimpleAiohttpChecker.prepare"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.check_site_for_username"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.debug_ip_request"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.debug_response_logging"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.detect_error_page"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.extract_ids_data"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.get_failed_sites"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.maigret"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.make_site_result"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.parse_usernames"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.process_site_result"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.process_site_result.build_result"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.self_check"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.self_check.disabled_count"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.site_self_check"
+    },
+    {
+      "severity": "error",
+      "code": "TASK_CRASHED",
+      "message": "RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\nzure/azure.py\", line 343, in completion\n  File \"litellm/llms/azure/azure.py\", line 155, in make_sync_azure_openai_chat_completion_request\n  File \"litellm/llms/azure/azure.py\", line 147, in make_sync_azure_openai_chat_completion_request\n  File \"openai/_legacy_response.py\", line 367, in wrapped\n  File \"openai/_utils/_utils.py\", line 286, in wrapper\n  File \"openai/resources/chat/completions/completions.py\", line 1204, in create\n  File \"openai/_base_client.py\", line 1297, in post\n  File \"openai/_base_client.py\", line 1070, in request\nopenai.RateLimitError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"litellm/main.py\", line 1752, in completion\n  File \"litellm/llms/azure/azure.py\", line 378, in completion\nlitellm.llms.azure.common_utils.AzureOpenAIError: Error code: 429 - {'error': {'message': 'Too Many Requests', 'type': 'too_many_requests', 'param': None, 'code': 'too_many_requests'}}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"roost_pytest/orchestrator.py\", line 535, in guarded\n  File \"roost_pytest/orchestrator.py\", line 222, in _one_target\n  File \"asyncio/threads.py\", line 25, in to_thread\n  File \"concurrent/futures/thread.py\", line 59, in run\n  File \"roost_pytest/planner/agent.py\", line 186, in run_planner\n  File \"roost_pytest/llm/client.py\", line 190, in complete\n  File \"litellm/utils.py\", line 1772, in wrapper\n  File \"litellm/utils.py\", line 1593, in wrapper\n  File \"litellm/main.py\", line 4420, in completion\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2456, in exception_type\n  File \"litellm/litellm_core_utils/exception_mapping_utils.py\", line 2258, in exception_type\nlitellm.exceptions.RateLimitError: litellm.RateLimitError: AzureException RateLimitError - Too Many Requests\n",
+      "symbol": "maigret.checking.timeout_check"
+    },
+    {
+      "severity": "warning",
+      "code": "INSTALL_FAILED",
+      "message": "venv install step 'repo deps' failed; stderr tail: npy-e3zrc7qp/meson-logs/meson-log.txt\n\n      hint: This usually indicates a problem with the package or the build environment.\n  help: `pycairo` (v1.29.0) was included because `xhtml2pdf` (v0.2.17) depends on `svglib` (v1.6.0) which depends on `rlpycairo` (v0.4.0) which depends on\n        `pycairo`\n"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.CurlCffiChecker.check"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.CurlCffiChecker.prepare"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.debug_response_logging"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.detect_error_page"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.extract_ids_data"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.get_failed_sites"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.parse_usernames"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.process_site_result"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_maigret.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.site_self_check"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.timeout_check"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.update_results_info"
+    }
+  ]
+}
