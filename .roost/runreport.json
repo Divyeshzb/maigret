@@ -1,0 +1,2730 @@
+{
+  "run_id": "35b2d03c",
+  "started_at": "2026-05-05T10:52:20.516110Z",
+  "ended_at": "2026-05-05T11:13:36.783247Z",
+  "status": "ok",
+  "config": {
+    "repo": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret",
+    "out": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret",
+    "workers": 5,
+    "scenarios_from": "planner",
+    "provider": "env:AI_TYPE",
+    "model": "gemini/gemini-3-flash-preview",
+    "jedi": true
+  },
+  "summary": {
+    "targets_total": 41,
+    "targets_passed": 38,
+    "targets_failed": 0,
+    "targets_partial": 0,
+    "targets_skipped": 3,
+    "scenarios_total": 179,
+    "scenarios_passed": 179,
+    "scenarios_failed": 0,
+    "coverage_weighted": null,
+    "llm_cost_usd": 8.0731,
+    "llm_input_tokens": 32372214,
+    "llm_output_tokens": 743262,
+    "llm_cache_read_input_tokens": 22983929,
+    "llm_cache_creation_input_tokens": 0,
+    "llm_api_calls": 991,
+    "elapsed_ms": 0
+  },
+  "targets": [
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        183,
+        211
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_AiodnsDomainResolver.py",
+      "test_file_hash": "sha256:522f56d16868b0516f45a2f2ee61a8056103ee94ab84ba3f93102b719b473122",
+      "test_status": "passed",
+      "iterations": 26,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver#0",
+          "scenario_name": "test_prepare",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver#1",
+          "scenario_name": "test_check_success",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver#2",
+          "scenario_name": "test_check_dns_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver#3",
+          "scenario_name": "test_check_unexpected_exception",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.23424670000000003,
+      "writer_input_tokens": 750053,
+      "writer_output_tokens": 26115,
+      "writer_cache_read_input_tokens": 486944,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        187,
+        190
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_AiodnsDomainResolver___init__.py",
+      "test_file_hash": "sha256:c247bf81fc08052959bd4f8a48a2e66d0b22b090bc4147effbfb4945e1209034",
+      "test_status": "passed",
+      "iterations": 18,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.__init__#0",
+          "scenario_name": "happy_path_default",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.__init__#1",
+          "scenario_name": "happy_path_with_logger",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.__init__#2",
+          "scenario_name": "edge_case_extra_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.__init__#3",
+          "scenario_name": "error_path_no_event_loop",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.__init__#4",
+          "scenario_name": "error_path_aiodns_init_failure",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.2574635,
+      "writer_input_tokens": 737251,
+      "writer_output_tokens": 15263,
+      "writer_cache_read_input_tokens": 348780,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        196,
+        211
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_AiodnsDomainResolver_check.py",
+      "test_file_hash": "sha256:b91309a465d1c870b5236f7b5b72822e3e804834fd27d7cf8516f04f5cb40045",
+      "test_status": "passed",
+      "iterations": 25,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.check#0",
+          "scenario_name": "success_resolution",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.check#1",
+          "scenario_name": "dns_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.check#2",
+          "scenario_name": "generic_exception",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.check#3",
+          "scenario_name": "empty_response",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.22154299999999996,
+      "writer_input_tokens": 572935,
+      "writer_output_tokens": 15137,
+      "writer_cache_read_input_tokens": 245190,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.AiodnsDomainResolver.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        192,
+        194
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_AiodnsDomainResolver_prepare.py",
+      "test_file_hash": "sha256:00b99c78961ef80891a7e3a1c9858533f694eb43e374c31bd6e0e21a38f96842",
+      "test_status": "passed",
+      "iterations": 22,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.prepare#0",
+          "scenario_name": "test_prepare_sets_url_only",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.prepare#1",
+          "scenario_name": "test_prepare_accepts_all_args_but_ignores_them",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.prepare#2",
+          "scenario_name": "test_prepare_overwrites_url",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.AiodnsDomainResolver.prepare#3",
+          "scenario_name": "test_prepare_with_none_url",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.190782,
+      "writer_input_tokens": 586107,
+      "writer_output_tokens": 14844,
+      "writer_cache_read_input_tokens": 326230,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.BAD_CHARS",
+      "symbol_kind": "constant",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        48,
+        48
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_BAD_CHARS.py",
+      "test_file_hash": "sha256:dc479b87ea15e589f53fceefe2945cf65b9cf68118d0cae128d1f3721fa50b14",
+      "test_status": "passed",
+      "iterations": 28,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.BAD_CHARS#0",
+          "scenario_name": "bad_chars_content",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.BAD_CHARS#1",
+          "scenario_name": "username_with_bad_char_detected",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.BAD_CHARS#2",
+          "scenario_name": "valid_username_not_flagged",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.BAD_CHARS#3",
+          "scenario_name": "empty_username_not_flagged",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.23958055,
+      "writer_input_tokens": 1004723,
+      "writer_output_tokens": 10334,
+      "writer_cache_read_input_tokens": 652851,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerBase",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        51,
+        52
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CheckerBase.py",
+      "test_file_hash": "sha256:785f31b38832a619bdcb62185770d6e7db55386ad3999d1e6b9b7360615d58e6",
+      "test_status": "passed",
+      "iterations": 19,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CheckerBase#0",
+          "scenario_name": "test_checker_base_instantiation",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerBase#1",
+          "scenario_name": "test_checker_base_subclassing",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerBase#2",
+          "scenario_name": "test_existing_checkers_inheritance",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.18676935,
+      "writer_input_tokens": 638508,
+      "writer_output_tokens": 9601,
+      "writer_cache_read_input_tokens": 358417,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        290,
+        302
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CheckerMock.py",
+      "test_file_hash": "sha256:ec909653c73e1cd9d4bb2540e07cbb0b4324f0f8d6dd4c8c6d0e1927537add14",
+      "test_status": "passed",
+      "iterations": 21,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CheckerMock#0",
+          "scenario_name": "test_init_with_arbitrary_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock#1",
+          "scenario_name": "test_prepare_returns_none",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock#2",
+          "scenario_name": "test_check_returns_default_values",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock#3",
+          "scenario_name": "test_close_completes_successfully",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock#4",
+          "scenario_name": "test_check_return_type_signature",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.17439945,
+      "writer_input_tokens": 621936,
+      "writer_output_tokens": 13424,
+      "writer_cache_read_input_tokens": 392979,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        291,
+        292
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CheckerMock___init__.py",
+      "test_file_hash": "sha256:0749924b001073030778aa66cdb1c4462ffaab2340125ebc5d23f7afc9b8050d",
+      "test_status": "passed",
+      "iterations": 20,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CheckerMock.__init__#0",
+          "scenario_name": "init_no_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.__init__#1",
+          "scenario_name": "init_with_keyword_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.__init__#2",
+          "scenario_name": "init_with_positional_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.13696995,
+      "writer_input_tokens": 415377,
+      "writer_output_tokens": 10396,
+      "writer_cache_read_input_tokens": 226459,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        297,
+        299
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CheckerMock_check.py",
+      "test_file_hash": "sha256:4b028f77005f1c86f568484061864daeea424ae97657ecc022cea91f93a1b0dc",
+      "test_status": "passed",
+      "iterations": 20,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CheckerMock.check#0",
+          "scenario_name": "test_check_returns_defaults",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.check#1",
+          "scenario_name": "test_check_is_async",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.check#2",
+          "scenario_name": "test_check_after_prepare",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.check#3",
+          "scenario_name": "test_check_multiple_calls",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.check#4",
+          "scenario_name": "test_check_with_init_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.1438539,
+      "writer_input_tokens": 453879,
+      "writer_output_tokens": 8399,
+      "writer_cache_read_input_tokens": 240628,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.close",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        301,
+        302
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CheckerMock_close.py",
+      "test_file_hash": "sha256:38983d3e89bdf7efe7aaf2f7446ffea436e2690fb7c0b03b3c1f974c5465e41e",
+      "test_status": "passed",
+      "iterations": 23,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CheckerMock.close#0",
+          "scenario_name": "test_close_basic",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.close#1",
+          "scenario_name": "test_close_idempotent",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.close#2",
+          "scenario_name": "test_close_after_use",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.14959499999999998,
+      "writer_input_tokens": 561768,
+      "writer_output_tokens": 8977,
+      "writer_cache_read_input_tokens": 351600,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CheckerMock.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        294,
+        295
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CheckerMock_prepare.py",
+      "test_file_hash": "sha256:2240770ccfeb6ced9084ca861d87f7a4dcbeb125d0a1e0317a92f8e32b6910b5",
+      "test_status": "passed",
+      "iterations": 19,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CheckerMock.prepare#0",
+          "scenario_name": "happy_path_all_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.prepare#1",
+          "scenario_name": "minimal_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.prepare#2",
+          "scenario_name": "explicit_defaults",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CheckerMock.prepare#3",
+          "scenario_name": "unexpected_types",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.1480073,
+      "writer_input_tokens": 527452,
+      "writer_output_tokens": 9071,
+      "writer_cache_read_input_tokens": 317626,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        222,
+        287
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CurlCffiChecker.py",
+      "test_file_hash": "sha256:98143d456121d8ec75f4bc4bae69bfec394fa11510faf3d546c520c050d04e65",
+      "test_status": "passed",
+      "iterations": 28,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker#0",
+          "scenario_name": "prepare_sets_attributes",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker#1",
+          "scenario_name": "check_get_success",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker#2",
+          "scenario_name": "check_post_with_payload",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker#3",
+          "scenario_name": "check_headers_filtering",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker#4",
+          "scenario_name": "check_timeout_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker#5",
+          "scenario_name": "check_connection_lost_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker#6",
+          "scenario_name": "check_unexpected_exception",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.23548005000000002,
+      "writer_input_tokens": 908388,
+      "writer_output_tokens": 31608,
+      "writer_cache_read_input_tokens": 696751,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        225,
+        233
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CurlCffiChecker___init__.py",
+      "test_file_hash": "sha256:6df8374f4681eceda6dccc94e1912c42c998f4ad1800fe7c43ce8c6c0bc255c5",
+      "test_status": "passed",
+      "iterations": 19,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.__init__#0",
+          "scenario_name": "test_init_default_values",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.__init__#1",
+          "scenario_name": "test_init_custom_kwargs",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.__init__#2",
+          "scenario_name": "test_init_explicit_none",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.__init__#3",
+          "scenario_name": "test_init_accepts_positional_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.13377645,
+      "writer_input_tokens": 404391,
+      "writer_output_tokens": 10306,
+      "writer_cache_read_input_tokens": 220749,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        247,
+        287
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CurlCffiChecker_check.py",
+      "test_file_hash": "sha256:34d25f2bee0d9fa9f1d8b2cca340c7688f4a53763b8e2e29c9f084329b71e320",
+      "test_status": "passed",
+      "iterations": 20,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.check#0",
+          "scenario_name": "happy_path_head",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.check#1",
+          "scenario_name": "connection_lost_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.check#2",
+          "scenario_name": "timeout_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.check#3",
+          "scenario_name": "unexpected_exception_handling",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.check#4",
+          "scenario_name": "keyboard_interrupt_handling",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.15418710000000002,
+      "writer_input_tokens": 524181,
+      "writer_output_tokens": 16375,
+      "writer_cache_read_input_tokens": 348952,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.close",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        244,
+        245
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CurlCffiChecker_close.py",
+      "test_file_hash": "sha256:01cebd280156fce448b89c092d29246eba5f0fac593c592b0457291f2f961365",
+      "test_status": "passed",
+      "iterations": 21,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.close#0",
+          "scenario_name": "test_close_fresh_instance",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.close#1",
+          "scenario_name": "test_close_idempotency",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.close#2",
+          "scenario_name": "test_close_after_prepare",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.close#3",
+          "scenario_name": "test_close_is_async_function",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.177046,
+      "writer_input_tokens": 659795,
+      "writer_output_tokens": 14682,
+      "writer_cache_read_input_tokens": 437550,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.CurlCffiChecker.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        235,
+        242
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_CurlCffiChecker_prepare.py",
+      "test_file_hash": "sha256:b237c77e76cf5e704df43e59562240e2b210f62296fd6a5af127be8e64878623",
+      "test_status": "passed",
+      "iterations": 24,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.prepare#0",
+          "scenario_name": "test_prepare_sets_attributes",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.prepare#1",
+          "scenario_name": "test_prepare_integration_head_method",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.prepare#2",
+          "scenario_name": "test_prepare_integration_custom_timeout",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.prepare#3",
+          "scenario_name": "test_prepare_integration_default_timeout",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.prepare#4",
+          "scenario_name": "test_prepare_integration_disallow_redirects",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.CurlCffiChecker.prepare#5",
+          "scenario_name": "test_prepare_integration_method_case_insensitivity",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.21333860000000002,
+      "writer_input_tokens": 689263,
+      "writer_output_tokens": 22608,
+      "writer_cache_read_input_tokens": 442482,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.ProxiedAiohttpChecker",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        176,
+        180
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_ProxiedAiohttpChecker.py",
+      "test_file_hash": "sha256:7d48e3e6dea02d7f0680ce59448e6fcc6ba5c66dc08422522d79f84801514512",
+      "test_status": "passed",
+      "iterations": 67,
+      "pivots": 1,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker#0",
+          "scenario_name": "init_attributes_assignment",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker#1",
+          "scenario_name": "check_uses_proxy_connector",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker#2",
+          "scenario_name": "check_falls_back_to_tcp_connector",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker#3",
+          "scenario_name": "check_handles_proxy_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker#4",
+          "scenario_name": "check_sends_post_payload",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker#5",
+          "scenario_name": "missing_base_attributes_before_prepare",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.736295,
+      "writer_input_tokens": 4539670,
+      "writer_output_tokens": 74087,
+      "writer_cache_read_input_tokens": 3901780,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.ProxiedAiohttpChecker.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        177,
+        180
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_ProxiedAiohttpChecker___init__.py",
+      "test_file_hash": "sha256:31b4a67ced58e5e8467ce2091be3d1283a61b0cbad100ccca65eced5db8779f1",
+      "test_status": "passed",
+      "iterations": 21,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker.__init__#0",
+          "scenario_name": "test_init_with_all_args",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker.__init__#1",
+          "scenario_name": "test_init_defaults",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker.__init__#2",
+          "scenario_name": "test_init_extra_args_ignored",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.ProxiedAiohttpChecker.__init__#3",
+          "scenario_name": "test_init_no_super_call_side_effect",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.17623624999999998,
+      "writer_input_tokens": 679243,
+      "writer_output_tokens": 15124,
+      "writer_cache_read_input_tokens": 463905,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.SUPPORTED_IDS",
+      "symbol_kind": "constant",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        36,
+        46
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_SUPPORTED_IDS.py",
+      "test_file_hash": "sha256:45bc8ee183f4974beafb4774ac8d278920e648758aedd31926bec94e69c5b448",
+      "test_status": "passed",
+      "iterations": 24,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.SUPPORTED_IDS#0",
+          "scenario_name": "test_supported_ids_type_and_elements",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SUPPORTED_IDS#1",
+          "scenario_name": "test_supported_ids_content_regression",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SUPPORTED_IDS#2",
+          "scenario_name": "test_supported_ids_no_duplicates",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SUPPORTED_IDS#3",
+          "scenario_name": "test_parse_usernames_all_supported_ids",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SUPPORTED_IDS#4",
+          "scenario_name": "test_parse_usernames_ignores_unsupported_ids",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.15348655,
+      "writer_input_tokens": 614714,
+      "writer_output_tokens": 14359,
+      "writer_cache_read_input_tokens": 437661,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker",
+      "symbol_kind": "class",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        55,
+        173
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_SimpleAiohttpChecker.py",
+      "test_file_hash": "sha256:31aa2cc710b19847964b4bfe3c7964c7ac7852188f70f7d1ede5ef8a264f1305",
+      "test_status": "passed",
+      "iterations": 26,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker#0",
+          "scenario_name": "test_prepare_sets_attributes",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker#1",
+          "scenario_name": "test_check_successful_get",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker#2",
+          "scenario_name": "test_check_post_json_payload",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker#3",
+          "scenario_name": "test_check_timeout_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker#4",
+          "scenario_name": "test_check_charset_decoding",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.23105099999999998,
+      "writer_input_tokens": 896523,
+      "writer_output_tokens": 28518,
+      "writer_cache_read_input_tokens": 672810,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.__init__",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        56,
+        65
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_SimpleAiohttpChecker___init__.py",
+      "test_file_hash": "sha256:93d66b094f17763d66898b4720cfed9ab13807d1b9cbcb46bfa7ea91059c6b4c",
+      "test_status": "passed",
+      "iterations": 24,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.__init__#0",
+          "scenario_name": "test_init_defaults",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.__init__#1",
+          "scenario_name": "test_init_with_custom_values",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.__init__#2",
+          "scenario_name": "test_init_extra_args_ignored",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.147134,
+      "writer_input_tokens": 634510,
+      "writer_output_tokens": 10064,
+      "writer_cache_read_input_tokens": 445140,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker._make_request",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        79,
+        135
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_SimpleAiohttpChecker__make_request.py",
+      "test_file_hash": "sha256:f32d45bf2e44e8654d5950b19424985a066ea3683e607f35862c27a3376344e8",
+      "test_status": "passed",
+      "iterations": 35,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker._make_request#0",
+          "scenario_name": "happy_path_get",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker._make_request#1",
+          "scenario_name": "happy_path_post_json",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker._make_request#2",
+          "scenario_name": "happy_path_post_form_urlencoded",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker._make_request#3",
+          "scenario_name": "edge_case_status_zero",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker._make_request#4",
+          "scenario_name": "error_path_timeout",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker._make_request#5",
+          "scenario_name": "error_path_ssl_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.30182575000000006,
+      "writer_input_tokens": 1356281,
+      "writer_output_tokens": 38640,
+      "writer_cache_read_input_tokens": 1093855,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        137,
+        173
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_SimpleAiohttpChecker_check.py",
+      "test_file_hash": "sha256:fe4e6d819f1312c87135b4e86f6645ddbf310d64e72c5a29bcb72ced4c0161bf",
+      "test_status": "passed",
+      "iterations": 27,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.check#0",
+          "scenario_name": "happy_path_get",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.check#1",
+          "scenario_name": "post_json_payload",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.check#2",
+          "scenario_name": "post_form_payload",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.check#3",
+          "scenario_name": "request_timeout",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.check#4",
+          "scenario_name": "connection_failure",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.check#5",
+          "scenario_name": "proxy_connector_setup",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.24001195000000003,
+      "writer_input_tokens": 918839,
+      "writer_output_tokens": 31819,
+      "writer_cache_read_input_tokens": 699699,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.close",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        76,
+        77
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_SimpleAiohttpChecker_close.py",
+      "test_file_hash": "sha256:30e448855406eaf9686c5244173158e4a6259db82744cbc62c691ab47aed13b5",
+      "test_status": "passed",
+      "iterations": 20,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.close#0",
+          "scenario_name": "close_new_instance",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.close#1",
+          "scenario_name": "close_after_prepare",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.close#2",
+          "scenario_name": "close_idempotency",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.14380695,
+      "writer_input_tokens": 537603,
+      "writer_output_tokens": 10250,
+      "writer_cache_read_input_tokens": 346099,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.SimpleAiohttpChecker.prepare",
+      "symbol_kind": "method",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        67,
+        74
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_SimpleAiohttpChecker_prepare.py",
+      "test_file_hash": "sha256:a98058ca7711b10962ba6dbf7aab885a024ec07b88c6dcf55ba662e55714c1e6",
+      "test_status": "passed",
+      "iterations": 25,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.prepare#0",
+          "scenario_name": "test_prepare_sets_all_attributes",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.prepare#1",
+          "scenario_name": "test_prepare_sets_defaults",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.prepare#2",
+          "scenario_name": "test_prepare_overwrites_previous_values",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.SimpleAiohttpChecker.prepare#3",
+          "scenario_name": "test_prepare_with_empty_values",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.16795865,
+      "writer_input_tokens": 664732,
+      "writer_output_tokens": 15074,
+      "writer_cache_read_input_tokens": 465843,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.check_site_for_username",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        667,
+        723
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_check_site_for_username.py",
+      "test_file_hash": "sha256:74e6bb69fbe25044339a13adb5adc27ba1ebc2e94f6491526a2b57ec6b0f876f",
+      "test_status": "passed",
+      "iterations": 30,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.check_site_for_username#0",
+          "scenario_name": "happy_path_claimed",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.check_site_for_username#1",
+          "scenario_name": "happy_path_available",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.check_site_for_username#2",
+          "scenario_name": "activation_retry_success",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.check_site_for_username#3",
+          "scenario_name": "checker_error_handling",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.check_site_for_username#4",
+          "scenario_name": "missing_checker_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.22799585,
+      "writer_input_tokens": 964369,
+      "writer_output_tokens": 22766,
+      "writer_cache_read_input_tokens": 716637,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.debug_ip_request",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        726,
+        732
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_debug_ip_request.py",
+      "test_file_hash": "sha256:2efcd0f172f3b005f8cdc2b8e9cb893c07831973aa3225822ad1c418c9c168d5",
+      "test_status": "passed",
+      "iterations": 20,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.debug_ip_request#0",
+          "scenario_name": "happy_path_success",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.debug_ip_request#1",
+          "scenario_name": "ip_with_whitespace",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.debug_ip_request#2",
+          "scenario_name": "request_error_logging",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.debug_ip_request#3",
+          "scenario_name": "empty_ip_no_error_bug",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.13832689999999997,
+      "writer_input_tokens": 436657,
+      "writer_output_tokens": 11935,
+      "writer_cache_read_input_tokens": 257348,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.debug_response_logging",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        334,
+        339
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_debug_response_logging.py",
+      "test_file_hash": "sha256:c51ec1e465a8fa979700b39daf2b34f80b1d3cff1b4112003bf8b2dc00a91761",
+      "test_status": "passed",
+      "iterations": 36,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.debug_response_logging#0",
+          "scenario_name": "append_multiple_entries",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.debug_response_logging#1",
+          "scenario_name": "html_content_logging",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.debug_response_logging#2",
+          "scenario_name": "empty_html_content_omission",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.debug_response_logging#3",
+          "scenario_name": "exception_object_logging",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.debug_response_logging#4",
+          "scenario_name": "status_code_zero_handling",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.19654780000000002,
+      "writer_input_tokens": 871451,
+      "writer_output_tokens": 15324,
+      "writer_cache_read_input_tokens": 633666,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.detect_error_page",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        306,
+        331
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_detect_error_page.py",
+      "test_file_hash": "sha256:261c53a2cc27d251f49b750c01b340c3ef5d8546d118897970ce14bb6627798a",
+      "test_status": "passed",
+      "iterations": 22,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.detect_error_page#0",
+          "scenario_name": "common_error_detection_cloudflare",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.detect_error_page#1",
+          "scenario_name": "precedence_site_flag_over_all",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.detect_error_page#2",
+          "scenario_name": "precedence_common_error_over_403",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.detect_error_page#3",
+          "scenario_name": "status_500_boundary",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.detect_error_page#4",
+          "scenario_name": "status_404_not_an_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.detect_error_page#5",
+          "scenario_name": "multiple_matching_site_flags",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.17553375,
+      "writer_input_tokens": 579978,
+      "writer_output_tokens": 15432,
+      "writer_cache_read_input_tokens": 357225,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.extract_ids_data",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        1223,
+        1228
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_extract_ids_data.py",
+      "test_file_hash": "sha256:d1395a4b11bcfaeac49d19767c5ac7beeec78daf8007b126a4395cac026f401d",
+      "test_status": "passed",
+      "iterations": 19,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.extract_ids_data#0",
+          "scenario_name": "happy_path_extraction",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.extract_ids_data#1",
+          "scenario_name": "extraction_exception_handling",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.extract_ids_data#2",
+          "scenario_name": "empty_html_input",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.extract_ids_data#3",
+          "scenario_name": "none_html_input",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.1589809,
+      "writer_input_tokens": 458213,
+      "writer_output_tokens": 12500,
+      "writer_cache_read_input_tokens": 239168,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.get_failed_sites",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        735,
+        743
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_get_failed_sites.py",
+      "test_file_hash": "sha256:d691622b3da125aed9f0fddd5dd335dc47cdd1b4fe773f1d8b1fba41db5e88b7",
+      "test_status": "passed",
+      "iterations": 27,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.get_failed_sites#0",
+          "scenario_name": "multiple_temporary_errors",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.get_failed_sites#1",
+          "scenario_name": "all_permanent_errors",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.get_failed_sites#2",
+          "scenario_name": "empty_input",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.get_failed_sites#3",
+          "scenario_name": "no_errors_present",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.get_failed_sites#4",
+          "scenario_name": "missing_or_empty_status",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.16723535,
+      "writer_input_tokens": 733945,
+      "writer_output_tokens": 15868,
+      "writer_cache_read_input_tokens": 549647,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.maigret",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        746,
+        924
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_maigret.py",
+      "test_file_hash": "sha256:f82c43f052ec8ff3da527a1f27401431ecf4a34148a4e7fe757e5e38cec818b8",
+      "test_status": "passed",
+      "iterations": 46,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.maigret#0",
+          "scenario_name": "happy_path_multiple_sites",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.maigret#1",
+          "scenario_name": "retry_on_failure",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.maigret#2",
+          "scenario_name": "proxy_initialization",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.maigret#3",
+          "scenario_name": "id_type_filtering",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.maigret#4",
+          "scenario_name": "domain_checking_enabled",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.maigret#5",
+          "scenario_name": "parsing_enabled_passed",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.3935228499999999,
+      "writer_input_tokens": 2093393,
+      "writer_output_tokens": 43533,
+      "writer_cache_read_input_tokens": 1741717,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.make_site_result",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        511,
+        664
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_make_site_result.py",
+      "test_file_hash": "sha256:bc2590fc71caaa1fdb9bce871324ae70354fa9dee5e254c184db4f8ff430ee8c",
+      "test_status": "passed",
+      "iterations": 34,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.make_site_result#0",
+          "scenario_name": "happy_path_get_preparation",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.make_site_result#1",
+          "scenario_name": "disabled_site_returns_illegal_status",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.make_site_result#2",
+          "scenario_name": "regex_check_failure_returns_illegal_status",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.make_site_result#3",
+          "scenario_name": "post_request_with_payload_formatting",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.make_site_result#4",
+          "scenario_name": "mirror_selection_on_retry",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.make_site_result#5",
+          "scenario_name": "tls_impersonation_checker_selection",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.3005691999999999,
+      "writer_input_tokens": 1232360,
+      "writer_output_tokens": 26023,
+      "writer_cache_read_input_tokens": 874844,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.parse_usernames",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        1231,
+        1246
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_parse_usernames.py",
+      "test_file_hash": "sha256:f39871b61c96a397aa04036b91aeeb8fc5258cdcd3c8dd2dd484c3b35dfeabd5",
+      "test_status": "passed",
+      "iterations": 21,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.parse_usernames#0",
+          "scenario_name": "empty_input",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.parse_usernames#1",
+          "scenario_name": "mixed_types_and_precedence",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.parse_usernames#2",
+          "scenario_name": "usernames_non_list_literal",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.parse_usernames#3",
+          "scenario_name": "usernames_already_list_value",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.parse_usernames#4",
+          "scenario_name": "multiple_generic_usernames",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.1511835,
+      "writer_input_tokens": 458778,
+      "writer_output_tokens": 19881,
+      "writer_cache_read_input_tokens": 306330,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.process_site_result",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        342,
+        508
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_process_site_result.py",
+      "test_file_hash": "sha256:fa9bfbcdab4db199825b18110125a5b87675b36b6935df3fd9e0eb71b82d7593",
+      "test_status": "passed",
+      "iterations": 32,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.process_site_result#0",
+          "scenario_name": "check_type_response_url_claimed",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result#1",
+          "scenario_name": "check_type_response_url_available",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result#2",
+          "scenario_name": "parsing_enabled_claimed",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result#3",
+          "scenario_name": "activation_triggered",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result#4",
+          "scenario_name": "detect_error_page_integration_claimed_but_error",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result#5",
+          "scenario_name": "message_check_empty_presence_strs",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.2525765499999999,
+      "writer_input_tokens": 1259954,
+      "writer_output_tokens": 22847,
+      "writer_cache_read_input_tokens": 990981,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.process_site_result.build_result",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        435,
+        444
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_process_site_result_build_result.py",
+      "test_file_hash": "sha256:baa4fbb65eb1e5eaef269430bbf6663d094f311b1077507bd43c386b7e1d9976",
+      "test_status": "passed",
+      "iterations": 29,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.process_site_result.build_result#0",
+          "scenario_name": "happy_path_claimed_with_metadata",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result.build_result#1",
+          "scenario_name": "happy_path_available_with_tags",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result.build_result#2",
+          "scenario_name": "response_url_check_type_claimed",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.process_site_result.build_result#3",
+          "scenario_name": "response_url_check_type_available_no_presence",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.23522285000000004,
+      "writer_input_tokens": 933973,
+      "writer_output_tokens": 23854,
+      "writer_cache_read_input_tokens": 674057,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.self_check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        1121,
+        1220
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_self_check.py",
+      "test_file_hash": "sha256:bfec6d980b337ef45ba8e835a0afec1692b81312e42f0205c83cb6b8def5632d",
+      "test_status": "passed",
+      "iterations": 24,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.self_check#0",
+          "scenario_name": "test_self_check_success",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check#1",
+          "scenario_name": "test_self_check_with_issues_auto_disable_on",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check#2",
+          "scenario_name": "test_self_check_with_issues_auto_disable_off",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check#3",
+          "scenario_name": "test_self_check_unchecked_tag_removed",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check#4",
+          "scenario_name": "test_self_check_exception_handling",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check#5",
+          "scenario_name": "test_self_check_empty_sites",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.19726524999999998,
+      "writer_input_tokens": 705743,
+      "writer_output_tokens": 21830,
+      "writer_cache_read_input_tokens": 491325,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.self_check.disabled_count",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": [
+        1150,
+        1151
+      ],
+      "test_file": "/private/var/tmp/Roost/RoostGPT/bankcurrency-converter/1777978292/source/maigret/checking/test_self_check_disabled_count.py",
+      "test_file_hash": "sha256:c19b4a08874bf5c8623446c21d761836cb796e301749eb9389429ebc08631d4f",
+      "test_status": "passed",
+      "iterations": 29,
+      "pivots": 0,
+      "scenarios": [
+        {
+          "scenario_id": "maigret.checking.self_check.disabled_count#0",
+          "scenario_name": "mixed_disabled_status",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check.disabled_count#1",
+          "scenario_name": "empty_list",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check.disabled_count#2",
+          "scenario_name": "all_enabled_sites",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check.disabled_count#3",
+          "scenario_name": "all_disabled_sites",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        },
+        {
+          "scenario_id": "maigret.checking.self_check.disabled_count#4",
+          "scenario_name": "truthy_disabled_values",
+          "passed": true,
+          "duration_ms": null,
+          "failure_reason": null,
+          "stderr_excerpt": null
+        }
+      ],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.1833192,
+      "writer_input_tokens": 745278,
+      "writer_output_tokens": 16394,
+      "writer_cache_read_input_tokens": 530004,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": []
+    },
+    {
+      "target_symbol_id": "maigret.checking.site_self_check",
+      "symbol_kind": "async_function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "skipped",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "warning",
+          "code": "ABORTED",
+          "message": "skipped due to signal",
+          "symbol": "maigret.checking.site_self_check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.timeout_check",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "skipped",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "warning",
+          "code": "ABORTED",
+          "message": "skipped due to signal",
+          "symbol": "maigret.checking.timeout_check"
+        }
+      ]
+    },
+    {
+      "target_symbol_id": "maigret.checking.update_results_info",
+      "symbol_kind": "function",
+      "source_file": "maigret/checking.py",
+      "source_range": null,
+      "test_file": "",
+      "test_file_hash": "",
+      "test_status": "skipped",
+      "iterations": 0,
+      "pivots": 0,
+      "scenarios": [],
+      "coverage_pct": null,
+      "writer_cost_usd": 0.0,
+      "writer_input_tokens": 0,
+      "writer_output_tokens": 0,
+      "writer_cache_read_input_tokens": 0,
+      "writer_cache_creation_input_tokens": 0,
+      "diagnostics": [
+        {
+          "severity": "warning",
+          "code": "ABORTED",
+          "message": "skipped due to signal",
+          "symbol": "maigret.checking.update_results_info"
+        }
+      ]
+    }
+  ],
+  "files_written": [
+    {
+      "path": "checking/test_AiodnsDomainResolver.py",
+      "hash": "sha256:522f56d16868b0516f45a2f2ee61a8056103ee94ab84ba3f93102b719b473122",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_AiodnsDomainResolver___init__.py",
+      "hash": "sha256:c247bf81fc08052959bd4f8a48a2e66d0b22b090bc4147effbfb4945e1209034",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_AiodnsDomainResolver_check.py",
+      "hash": "sha256:b91309a465d1c870b5236f7b5b72822e3e804834fd27d7cf8516f04f5cb40045",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_AiodnsDomainResolver_prepare.py",
+      "hash": "sha256:00b99c78961ef80891a7e3a1c9858533f694eb43e374c31bd6e0e21a38f96842",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_BAD_CHARS.py",
+      "hash": "sha256:dc479b87ea15e589f53fceefe2945cf65b9cf68118d0cae128d1f3721fa50b14",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CheckerBase.py",
+      "hash": "sha256:785f31b38832a619bdcb62185770d6e7db55386ad3999d1e6b9b7360615d58e6",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CheckerMock.py",
+      "hash": "sha256:ec909653c73e1cd9d4bb2540e07cbb0b4324f0f8d6dd4c8c6d0e1927537add14",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CheckerMock___init__.py",
+      "hash": "sha256:0749924b001073030778aa66cdb1c4462ffaab2340125ebc5d23f7afc9b8050d",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CheckerMock_check.py",
+      "hash": "sha256:4b028f77005f1c86f568484061864daeea424ae97657ecc022cea91f93a1b0dc",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CheckerMock_close.py",
+      "hash": "sha256:38983d3e89bdf7efe7aaf2f7446ffea436e2690fb7c0b03b3c1f974c5465e41e",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CheckerMock_prepare.py",
+      "hash": "sha256:2240770ccfeb6ced9084ca861d87f7a4dcbeb125d0a1e0317a92f8e32b6910b5",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CurlCffiChecker.py",
+      "hash": "sha256:98143d456121d8ec75f4bc4bae69bfec394fa11510faf3d546c520c050d04e65",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CurlCffiChecker___init__.py",
+      "hash": "sha256:6df8374f4681eceda6dccc94e1912c42c998f4ad1800fe7c43ce8c6c0bc255c5",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CurlCffiChecker_check.py",
+      "hash": "sha256:34d25f2bee0d9fa9f1d8b2cca340c7688f4a53763b8e2e29c9f084329b71e320",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CurlCffiChecker_close.py",
+      "hash": "sha256:01cebd280156fce448b89c092d29246eba5f0fac593c592b0457291f2f961365",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_CurlCffiChecker_prepare.py",
+      "hash": "sha256:b237c77e76cf5e704df43e59562240e2b210f62296fd6a5af127be8e64878623",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_ProxiedAiohttpChecker.py",
+      "hash": "sha256:7d48e3e6dea02d7f0680ce59448e6fcc6ba5c66dc08422522d79f84801514512",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_ProxiedAiohttpChecker___init__.py",
+      "hash": "sha256:31b4a67ced58e5e8467ce2091be3d1283a61b0cbad100ccca65eced5db8779f1",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_SUPPORTED_IDS.py",
+      "hash": "sha256:45bc8ee183f4974beafb4774ac8d278920e648758aedd31926bec94e69c5b448",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_SimpleAiohttpChecker.py",
+      "hash": "sha256:31aa2cc710b19847964b4bfe3c7964c7ac7852188f70f7d1ede5ef8a264f1305",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_SimpleAiohttpChecker___init__.py",
+      "hash": "sha256:93d66b094f17763d66898b4720cfed9ab13807d1b9cbcb46bfa7ea91059c6b4c",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_SimpleAiohttpChecker__make_request.py",
+      "hash": "sha256:f32d45bf2e44e8654d5950b19424985a066ea3683e607f35862c27a3376344e8",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_SimpleAiohttpChecker_check.py",
+      "hash": "sha256:fe4e6d819f1312c87135b4e86f6645ddbf310d64e72c5a29bcb72ced4c0161bf",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_SimpleAiohttpChecker_close.py",
+      "hash": "sha256:30e448855406eaf9686c5244173158e4a6259db82744cbc62c691ab47aed13b5",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_SimpleAiohttpChecker_prepare.py",
+      "hash": "sha256:a98058ca7711b10962ba6dbf7aab885a024ec07b88c6dcf55ba662e55714c1e6",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_check_site_for_username.py",
+      "hash": "sha256:74e6bb69fbe25044339a13adb5adc27ba1ebc2e94f6491526a2b57ec6b0f876f",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_debug_ip_request.py",
+      "hash": "sha256:2efcd0f172f3b005f8cdc2b8e9cb893c07831973aa3225822ad1c418c9c168d5",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_debug_response_logging.py",
+      "hash": "sha256:c51ec1e465a8fa979700b39daf2b34f80b1d3cff1b4112003bf8b2dc00a91761",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_detect_error_page.py",
+      "hash": "sha256:261c53a2cc27d251f49b750c01b340c3ef5d8546d118897970ce14bb6627798a",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_extract_ids_data.py",
+      "hash": "sha256:d1395a4b11bcfaeac49d19767c5ac7beeec78daf8007b126a4395cac026f401d",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_get_failed_sites.py",
+      "hash": "sha256:d691622b3da125aed9f0fddd5dd335dc47cdd1b4fe773f1d8b1fba41db5e88b7",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_maigret.py",
+      "hash": "sha256:f82c43f052ec8ff3da527a1f27401431ecf4a34148a4e7fe757e5e38cec818b8",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_make_site_result.py",
+      "hash": "sha256:bc2590fc71caaa1fdb9bce871324ae70354fa9dee5e254c184db4f8ff430ee8c",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_parse_usernames.py",
+      "hash": "sha256:f39871b61c96a397aa04036b91aeeb8fc5258cdcd3c8dd2dd484c3b35dfeabd5",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_process_site_result.py",
+      "hash": "sha256:fa9bfbcdab4db199825b18110125a5b87675b36b6935df3fd9e0eb71b82d7593",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_process_site_result_build_result.py",
+      "hash": "sha256:baa4fbb65eb1e5eaef269430bbf6663d094f311b1077507bd43c386b7e1d9976",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_self_check.py",
+      "hash": "sha256:bfec6d980b337ef45ba8e835a0afec1692b81312e42f0205c83cb6b8def5632d",
+      "status": "created"
+    },
+    {
+      "path": "checking/test_self_check_disabled_count.py",
+      "hash": "sha256:c19b4a08874bf5c8623446c21d761836cb796e301749eb9389429ebc08631d4f",
+      "status": "created"
+    }
+  ],
+  "pr_ready": {
+    "branch_suggestion": "roost/python-tests-20260505-1113",
+    "commit_message": "roost-pytest: add 38 test file(s)",
+    "pr_title": "Auto-generated Python unit tests (38 file(s))",
+    "pr_body_markdown": "## Summary\n- 38 targets with fully green tests\n\n## Generated test files\n- `checking/test_AiodnsDomainResolver.py`\n- `checking/test_AiodnsDomainResolver___init__.py`\n- `checking/test_AiodnsDomainResolver_check.py`\n- `checking/test_AiodnsDomainResolver_prepare.py`\n- `checking/test_BAD_CHARS.py`\n- `checking/test_CheckerBase.py`\n- `checking/test_CheckerMock.py`\n- `checking/test_CheckerMock___init__.py`\n- `checking/test_CheckerMock_check.py`\n- `checking/test_CheckerMock_close.py`\n- `checking/test_CheckerMock_prepare.py`\n- `checking/test_CurlCffiChecker.py`\n- `checking/test_CurlCffiChecker___init__.py`\n- `checking/test_CurlCffiChecker_check.py`\n- `checking/test_CurlCffiChecker_close.py`\n- `checking/test_CurlCffiChecker_prepare.py`\n- `checking/test_ProxiedAiohttpChecker.py`\n- `checking/test_ProxiedAiohttpChecker___init__.py`\n- `checking/test_SUPPORTED_IDS.py`\n- `checking/test_SimpleAiohttpChecker.py`\n- `checking/test_SimpleAiohttpChecker___init__.py`\n- `checking/test_SimpleAiohttpChecker__make_request.py`\n- `checking/test_SimpleAiohttpChecker_check.py`\n- `checking/test_SimpleAiohttpChecker_close.py`\n- `checking/test_SimpleAiohttpChecker_prepare.py`\n- `checking/test_check_site_for_username.py`\n- `checking/test_debug_ip_request.py`\n- `checking/test_debug_response_logging.py`\n- `checking/test_detect_error_page.py`\n- `checking/test_extract_ids_data.py`\n- `checking/test_get_failed_sites.py`\n- `checking/test_maigret.py`\n- `checking/test_make_site_result.py`\n- `checking/test_parse_usernames.py`\n- `checking/test_process_site_result.py`\n- `checking/test_process_site_result_build_result.py`\n- `checking/test_self_check.py`\n- `checking/test_self_check_disabled_count.py`",
+    "changed_files": [
+      "checking/test_AiodnsDomainResolver.py",
+      "checking/test_AiodnsDomainResolver___init__.py",
+      "checking/test_AiodnsDomainResolver_check.py",
+      "checking/test_AiodnsDomainResolver_prepare.py",
+      "checking/test_BAD_CHARS.py",
+      "checking/test_CheckerBase.py",
+      "checking/test_CheckerMock.py",
+      "checking/test_CheckerMock___init__.py",
+      "checking/test_CheckerMock_check.py",
+      "checking/test_CheckerMock_close.py",
+      "checking/test_CheckerMock_prepare.py",
+      "checking/test_CurlCffiChecker.py",
+      "checking/test_CurlCffiChecker___init__.py",
+      "checking/test_CurlCffiChecker_check.py",
+      "checking/test_CurlCffiChecker_close.py",
+      "checking/test_CurlCffiChecker_prepare.py",
+      "checking/test_ProxiedAiohttpChecker.py",
+      "checking/test_ProxiedAiohttpChecker___init__.py",
+      "checking/test_SUPPORTED_IDS.py",
+      "checking/test_SimpleAiohttpChecker.py",
+      "checking/test_SimpleAiohttpChecker___init__.py",
+      "checking/test_SimpleAiohttpChecker__make_request.py",
+      "checking/test_SimpleAiohttpChecker_check.py",
+      "checking/test_SimpleAiohttpChecker_close.py",
+      "checking/test_SimpleAiohttpChecker_prepare.py",
+      "checking/test_check_site_for_username.py",
+      "checking/test_debug_ip_request.py",
+      "checking/test_debug_response_logging.py",
+      "checking/test_detect_error_page.py",
+      "checking/test_extract_ids_data.py",
+      "checking/test_get_failed_sites.py",
+      "checking/test_maigret.py",
+      "checking/test_make_site_result.py",
+      "checking/test_parse_usernames.py",
+      "checking/test_process_site_result.py",
+      "checking/test_process_site_result_build_result.py",
+      "checking/test_self_check.py",
+      "checking/test_self_check_disabled_count.py"
+    ]
+  },
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "INSTALL_FAILED",
+      "message": "venv install step 'repo deps' failed; stderr tail: npy-km0hohv9/meson-logs/meson-log.txt\n\n      hint: This usually indicates a problem with the package or the build environment.\n  help: `pycairo` (v1.29.0) was included because `xhtml2pdf` (v0.2.17) depends on `svglib` (v1.6.0) which depends on `rlpycairo` (v0.4.0) which depends on\n        `pycairo`\n"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.CurlCffiChecker.check"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.CurlCffiChecker.prepare"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.debug_response_logging"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.detect_error_page"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.extract_ids_data"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.get_failed_sites"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.parse_usernames"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.process_site_result"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_maigret.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.site_self_check"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.timeout_check"
+    },
+    {
+      "severity": "info",
+      "code": "EXISTING_TEST_ALONGSIDE",
+      "message": "hand-written test exists at tests/test_checking.py; the new roost test is generated alongside (the deterministic path is bumped with a `_roost` suffix if it would conflict) and carries an annotation banner pointing at the existing file so a reviewer can see both",
+      "symbol": "maigret.checking.update_results_info"
+    }
+  ]
+}
